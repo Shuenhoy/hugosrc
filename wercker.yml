@@ -27,12 +27,12 @@ deploy:
   steps:
     - wercker/add-ssh-key:
         keyname: deploy_ssh
-        host: coding.net
+        host: git.coding.net
     - wercker/add-ssh-key:
         keyname: wtf
-        host: coding.net
+        host: git.coding.net
     - add-to-known_hosts:
-        hostname: coding.net
+        hostname: git.coding.net
         fingerprint: 98:ab:2b:30:60:00:82:86:bb:85:db:87:22:c4:4f:b1
     - script:
         name: s1
