@@ -30,7 +30,7 @@ deploy:
     - add-to-known_hosts:
         hostname: coding.net
         fingerprint: 98:ab:2b:30:60:00:82:86:bb:85:db:87:22:c4:4f:b1
-    - ysqi/git-push@0.7.15:
+    - leipert/git-push:
         host: coding.net
         repo: shuenhoy/shuenhoy.coding.me
         branch: master
