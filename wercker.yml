@@ -27,9 +27,17 @@ deploy:
   steps:
     - leipert/add-ssh-key-gh-bb:
         keyname: deploy_ssh
+    - leipert/add-ssh-key-gh-bb:
+        keyname: wtf
     - add-to-known_hosts:
         hostname: coding.net
         fingerprint: 98:ab:2b:30:60:00:82:86:bb:85:db:87:22:c4:4f:b1
+    - script:
+        name: s1
+        code: git config --global user.email "shuenhoy@gmail.com"
+    - script:
+        name: s2
+        code: git config --global user.name "shuenhoy"
     - faph/git-push:
         repo: git@git.coding.net:shuenhoy/shuenhoy.coding.me.git
         branch: master
