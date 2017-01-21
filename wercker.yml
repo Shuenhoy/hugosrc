@@ -25,10 +25,12 @@ build:
         theme: casper
 deploy:
   steps:
-    - leipert/add-ssh-key-gh-bb:
+    - wercker/add-ssh-key:
         keyname: deploy_ssh
-    - leipert/add-ssh-key-gh-bb:
+        host: coding.net
+    - wercker/add-ssh-key:
         keyname: wtf
+        host: coding.net
     - add-to-known_hosts:
         hostname: coding.net
         fingerprint: 98:ab:2b:30:60:00:82:86:bb:85:db:87:22:c4:4f:b1
