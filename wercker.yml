@@ -20,7 +20,7 @@ build:
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
-    - shuenhoy/wercker-step-hugo-build:
+    - wercker-step-hugo-build:
         version: "HEAD"
         theme: casper
 deploy:
