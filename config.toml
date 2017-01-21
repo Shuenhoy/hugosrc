@@ -11,7 +11,7 @@ Copyright = "All rights reserved - 2015"
 canonifyurls = true
 theme = "casper2"
 hasCJKLanguage = true
-SummaryLength = 1000
+SummaryLength = 200
  
  
 [params]
