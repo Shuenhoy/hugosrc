@@ -1,0 +1,42 @@
+BaseUrl= "http://localhost:8080/"
+LanguageCode= "zh-cn"
+Title= "薫風の匂い"
+paginate = 5
+#contentDir = "content"
+#layoutDir = "layouts"
+#publishDir = "public"
+DuoshuoShortname = "shuenhoyblog"
+ #DisqusShortname = "YOUR_SHORT_NAME_HERE"
+Copyright = "All rights reserved - 2015"
+canonifyurls = true
+
+hasCJKLanguage = true
+SummaryLength = 1000
+ 
+ 
+[params]
+  description = "存在，并且存在"
+  cover = "20100727134933-6089340782-2.jpg"
+  author = "Shuenhoy"
+  authorlocation = "Shandong, China"
+  authorwebsite = "http://knpuu.com"
+  bio= "my bio" 
+  logo = "bloglogo2-1.png"
+  
+ 
+  
+  # facebookName = ""
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+[[menu.main]]
+  name = "Home"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "Links"
+  weight = -110
+  identifier = "links"
+  url = "/links"

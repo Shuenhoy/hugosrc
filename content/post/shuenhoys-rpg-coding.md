@@ -1,0 +1,17 @@
++++
+slug = "shuenhoys-rpg-coding"
+draft = false
+title = "Shuenhoy's RPG Coding"
+date = 2014-02-08T12:54:36Z
+author = "Shuenhoy"
+description = ""
+
++++
+
+<div id="24lb_thread"></div>
+<script type="text/javascript">
+(function() {
+var lb24 = document.createElement('script'); lb24.type = 'text/javascript'; lb24.id = '24lbScript'; lb24.async = true; lb24.charset="utf-8";
+lb24.src = '//v.24liveblog.com/embed/24.js?id=1258647';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(lb24);})();
+</script>
