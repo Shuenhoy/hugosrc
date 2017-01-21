@@ -22,7 +22,7 @@ build:
   steps:
     - shuenhoy/hugo-build:
         version: "HEAD"
-        theme: casper
+        theme: casper2
 deploy:
   steps:
     - wercker/add-ssh-key:
