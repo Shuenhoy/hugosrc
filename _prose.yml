@@ -3,37 +3,3 @@ prose:
   siteurl: 'http://workshop.avatarnewyork.com'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'assets/media'
-  metadata:
-    content:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "author"
-        field:
-          element: "text"
-          label: "Your First Name (lower case)"
-          value: ""
-      - name: "description"
-        field:
-          element: "textarea"
-          label: "Description"
-          value: ""
-      - name: "date"
-        field:
-          element: "date"
-          label: "Date"
-          value: ""
-      - name: "draft"
-        field:
-          element: "button"
-          label: "Is a draft?"
-          value: ""
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-    
