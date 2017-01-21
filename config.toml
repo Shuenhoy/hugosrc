@@ -1,4 +1,4 @@
-BaseUrl= "http://localhost:8080/"
+BaseUrl= "/"
 LanguageCode= "zh-cn"
 Title= "薫風の匂い"
 paginate = 5
