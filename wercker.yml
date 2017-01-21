@@ -30,8 +30,7 @@ deploy:
     - add-to-known_hosts:
         hostname: coding.net
         fingerprint: 98:ab:2b:30:60:00:82:86:bb:85:db:87:22:c4:4f:b1
-    - krlmlr/git-push:
-        host: coding.net
-        repo: shuenhoy/shuenhoy.coding.me
+    - faph/git-push:
+        repo: git@git.coding.net:shuenhoy/shuenhoy.coding.me.git
         branch: master
         basedir: public
