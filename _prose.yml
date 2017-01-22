@@ -1,5 +1,37 @@
 prose:
   rooturl: 'content'
-  siteurl: 'http://workshop.avatarnewyork.com'
+  siteurl: 'http://knpuu.com'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'assets/media'
+metadata:
+  content:
+    - name: "title:
+        field:
+          element: "text"
+          label: "标题"
+    - name: "slug"
+        field:
+          element: "text"
+          label: "永久链接"
+          value: ""
+    - name: "author"
+        field:
+          element: "text"
+          label: "作者"
+          value: "Shuenhoy"
+    - name: "date"
+        field:
+          element: "date"
+          label: "日期"
+    - name: "comment"
+        field:
+          element: "button"
+          label: "是否开启评论"
+          on: "是"
+          off: "否"
+    - name: "draft"
+        field:
+          element: "button"
+          label: "是否为草稿"
+          on: "是"
+          off: "否"
